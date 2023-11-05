@@ -10,7 +10,7 @@ function calculateLove() {
         if ((name1 === "camila" && name2 === "nicolas") || (name1 === "nicolas" && name2 === "camila")) {
             lovePercentage = 100;
         } ///very important "if" statement that avoid my girlfriend gets mad at me.
-        console.log(lovePercentage);
+        
 
         result.innerHTML = `<span class="nameColor">${name1} </span> and <span class="nameColor">${name2} 's </span>  Love porcentage: ${lovePercentage} %`;
 
